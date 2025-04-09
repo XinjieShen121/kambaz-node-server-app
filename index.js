@@ -76,7 +76,8 @@ app.use(
   cors({
     credentials: true,
     origin: [
-      "https://a5--kambaz-react-web-app-cs5610-sp25-xjs.netlify.app", // Your Netlify app
+      // "https://a5--kambaz-react-web-app-cs5610-sp25-xjs.netlify.app",  //Your Netlify app
+      "https://kambaz-react-web-app-cs5610-sp25-hw6.netlify.app",
       "http://localhost:5173", // Local development
     ],
   })
