@@ -50,6 +50,8 @@
 // Hello(app);
 // app.listen(process.env.PORT || 4000);
 
+
+// delete enrollment routes
 import "dotenv/config";
 import session from "express-session";
 import express from "express";
@@ -60,7 +62,7 @@ import UserRoutes from "./Kambaz/Users/routes.js";
 import CourseRoutes from "./Kambaz/Courses/routes.js";
 import ModuleRoutes from "./Kambaz/Modules/routes.js";
 import AssignmentRoutes from "./Kambaz/Assignments/routes.js";
-import EnrollmentRoutes from "./Kambaz/Enrollments/routes.js";
+// import EnrollmentRoutes from "./Kambaz/Enrollments/routes.js";
 import mongoose from "mongoose";
 
 const CONNECTION_STRING =
@@ -104,7 +106,7 @@ UserRoutes(app);
 CourseRoutes(app);
 ModuleRoutes(app);
 AssignmentRoutes(app);
-EnrollmentRoutes(app);
+// EnrollmentRoutes(app);
 Lab5(app);
 Hello(app);
 
